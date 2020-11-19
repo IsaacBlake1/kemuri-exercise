@@ -1,0 +1,41 @@
+
+.form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    width: 450px;
+    text-align: center;
+
+    h2 {
+        color: rgba(0, 0, 0, 0.6);
+        margin-top: 0;
+    }
+    div {
+        display: flex;
+    }
+
+    input {
+        margin-bottom: 10px;
+        flex: 1;
+        box-sizing: border-box;
+        padding: 5px 5px;
+        border: none;
+        font-size: larger;
+        background-color: rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        color: rgba(0, 0, 0, 0.6);
+    }
+}
+
+.form_alert {
+    color: red;
+    margin-left: 6px;
+    margin-bottom: 10px;
+    align-self: center;
+}
+
+
+
